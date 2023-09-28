@@ -1,0 +1,14 @@
+<mat-expansion-panel hideToggle>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      <span class="h5">{{title}}</span>
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+  <div  *ngFor="let opt of options">
+    <div class="row border-bottom option" (click)="redirect(opt)">
+      <div class="col-12 my-2 pb-1">
+        <span class="h6">{{opt.text}}</span>
+      </div>
+    </div>
+  </div>
+</mat-expansion-panel>

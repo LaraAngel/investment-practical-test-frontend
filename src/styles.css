@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+.mat-card{
+  background-color: #f1f9ff;
+}
+.w-40{
+  width: 49% !important;
+}
+.w-55{
+  width: 49% !important;
+}
+body{
+  margin: 0
+}
+.nav-title{
+  color: #d602ee !important;
+}
